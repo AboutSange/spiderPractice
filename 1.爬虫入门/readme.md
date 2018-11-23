@@ -7,3 +7,5 @@
 5. [basic_proxy.py](basic_proxy.py): 设置代理
 6. [basic_debug_log.py](basic_debug_log.py): 开启Debug，可看HTTP header信息
 7. [basic_error.py](basic_error.py): 处理异常
+8. [basic_cookie.py](basic_cookie.py): 使用cookie
+9. [basic_end.py](basic_end.py): 利用以上知识爬取网站

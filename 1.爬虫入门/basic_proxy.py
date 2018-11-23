@@ -9,7 +9,7 @@ import urllib2
 
 enable_proxy = True
 
-proxy_handler = urllib2.ProxyHandler({'http': 'http://some-proxy.com:8080'})
+proxy_handler = urllib2.ProxyHandler({'http': 'http://some-proxy.com:8080'})  # type: url
 null_proxy_handler = urllib2.ProxyHandler({})
 
 if enable_proxy:
