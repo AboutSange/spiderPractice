@@ -1,7 +1,8 @@
 # spiderPractice
-爬虫练习
 
 ### 索引
+
+#### 爬虫入门
 1. [basic_get.py](1.爬虫入门/basic_get.py): 基本get请求
 2. [basic_post.py](1.爬虫入门/basic_post.py): 基本post请求
 3. [basic_put.py](1.爬虫入门/basic_put.py): 基本put/delete请求
@@ -11,6 +12,9 @@
 7. [basic_error.py](1.爬虫入门/basic_error.py): 处理异常
 8. [basic_cookie.py](1.爬虫入门/basic_cookie.py): 使用cookie
 9. [basic_end.py](1.爬虫入门/basic_end.py): 利用以上知识爬取网站
+
+#### 爬虫实战
+1. [qiushibaike.py](2.爬虫实战/qiushibaike.py): 爬取糗事百科
 
 
 ### 教程
