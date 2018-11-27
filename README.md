@@ -15,6 +15,7 @@
 
 #### 爬虫实战
 1. [qiushibaike.py](2.爬虫实战/qiushibaike.py): 爬取糗事百科
+2. [baidutieba.py](2.爬虫实战/baidutieba.py): 爬取百度贴吧
 
 
 ### 教程
