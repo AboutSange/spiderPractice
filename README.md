@@ -17,6 +17,10 @@
 1. [qiushibaike.py](2.爬虫实战/qiushibaike.py): 爬取糗事百科
 2. [baidutieba.py](2.爬虫实战/baidutieba.py): 爬取百度贴吧
 
+#### 数据挖掘相关库入门
+1. [basic_numpy.py](3.数据挖掘相关库入门/basic_numpy.py): Numpy基本操作
+
+
 
 ### 教程
 [如何学习Python爬虫[入门篇]？](https://zhuanlan.zhihu.com/p/21479334)
