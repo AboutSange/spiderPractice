@@ -87,20 +87,22 @@ def write_book_list_to_excel(book_list, book_tag):
     wb = Workbook()  # 默认生成一个名为'Sheet'的WorkSheet
     ws = sheet = wb.active
     sheet.title = book_tag.decode('utf-8')
-    ws.append(['序号','书名','评分','出版信息'])
+    ws.append(['序号', '书名', '评分', '出版信息'])
     count = 1
     for bl in book_list:
         ws.append([count, bl[0], float(bl[1]), bl[2]])
         count +=1
 
-    save_path = u'book_list_{0}.xlsx'.format(book_tag.decode('utf-8'))
+    save_path = ur'G:\3.书籍\豆瓣书籍\book_list_{0}.xlsx'.format(book_tag.decode('utf-8'))
     wb.save(save_path)
 
 
 def main():
-    tag = "爬虫"
-    book_list = douban_book_spider(tag=tag, debug=True)
-    write_book_list_to_excel(book_list, tag)
+    tag_list = ["编程", "科普", "算法", "科技", "机器学习", "经济学", "心理", "历史", "经典"]
+    for tag in tag_list:
+        book_list = douban_book_spider(tag=tag, debug=True)
+        write_book_list_to_excel(book_list, tag)
+
 
 if __name__ == '__main__':
     main()
